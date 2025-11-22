@@ -22,7 +22,7 @@ class BxGyProduct(BaseModel):
 class BxGyDetails(BaseModel):
     buy_products: List[BxGyProduct]
     get_products: List[BxGyProduct]
-    repetition_limit: int = Field(..., alias="repition_limit")  # PDF uses wrong spelling
+    repetition_limit: int = Field(..., alias="repition_limit")  
 
 
 # ----- Main Coupon Create Model -----
